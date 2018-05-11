@@ -1,5 +1,7 @@
 <template>
+<div id="TitleBar">
 <h1>{{Title}}</h1>
+</div>
 </template>
 
 
@@ -11,3 +13,10 @@ export default {
   }
 }
 </script>
+
+
+<style>
+#TitleBar {
+  text-align:center;
+}
+</style>
